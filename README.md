@@ -1,5 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## base
+
+-   base on typescript react ant-design
+
+## feat
+
+[x] alias-paths 自动化路径短路径配置
+
 ## Available Scripts
 
 In the project directory, you can run:
