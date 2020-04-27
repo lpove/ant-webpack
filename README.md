@@ -6,9 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## feat
 
--   [] alias-paths 自动化路径短路径配置
+-   [ ] alias-paths 自动化路径短路径配置
 -   [x] babel-plugin-import react-antd 按需加载
--   [] 写一个自己的 modal 框和 loading 加载
+-   [ ] 写一个自己的 modal 框和 loading 加载
 
 ## Available Scripts
 
