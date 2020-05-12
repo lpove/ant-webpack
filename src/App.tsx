@@ -7,7 +7,8 @@ import "./App.scss";
 const App: React.FC = () => {
     return (
         <div className='App'>
-            <BrowserRouter basename='home'>
+            {/* 这里可以决定基础的路由设计名字 */}
+            <BrowserRouter basename='/'>
                 {/* <Route path={["/users/:id", "/profile/:id"]} component={Demo} /> */}
                 <Route component={Home} />
             </BrowserRouter>

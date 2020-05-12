@@ -1,19 +1,24 @@
 import React from "react";
-import Demo from "./Demo";
 import { Route, RouteComponentProps, Router, Switch } from "react-router-dom";
 
-// import { Button } from "antd";
-// import Live from "./modules/live";
-// import HooksLive from "./modules/hooksLive";
+import Config from "./Router";
 
 const Home: React.FC<RouteComponentProps> = (props) => {
     return (
         <div>
-            home
+            home test
             <Router history={props.history}>
                 <Switch>
-                    <Route exact path='/' component={Demo} />
-                    {/* <Route path='demo' component={Demo} /> */}
+                    {Config.map((item) => {
+                        return (
+                            <Route
+                                key={item.name}
+                                exact={item.exact}
+                                path={item.path}
+                                component={item.component}
+                            />
+                        );
+                    })}
                 </Switch>
             </Router>
         </div>

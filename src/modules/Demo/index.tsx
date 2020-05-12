@@ -1,8 +1,9 @@
 import React from "react";
 import { Button } from "antd";
+import { Link, RouteComponentProps } from "react-router-dom";
 import logo from "./../../logo.svg";
 
-const Demo: React.FC = () => {
+const Demo: React.FC<RouteComponentProps> = () => {
     return (
         <div>
             <header className='App-header'>
@@ -19,6 +20,8 @@ const Demo: React.FC = () => {
                 >
                     Learn React
                 </a>
+                <Link to='/ant'>Laern Ant Design</Link>
+
                 <div>
                     测试 setState
                     {/* <Live />

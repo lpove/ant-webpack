@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import MessageBox from "./../../components/MessageBox";
+import MessageBox from "../../components/MessageBox";
 
 export default class Live extends Component<any, { val: number }> {
     readonly state = {
